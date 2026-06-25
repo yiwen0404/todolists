@@ -2,7 +2,7 @@ const http = require('http');
 const {v4: uuidv4} = require('uuid');
 const errHandle = require('./errorHandle');
 
-const todos = 
+const todos = [];
 
 
 const requestListener = function(req,res){
